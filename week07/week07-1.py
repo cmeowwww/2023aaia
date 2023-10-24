@@ -1,8 +1,13 @@
-a = int(input())
+class Solution:
+    def isPowerOfTwo(self, n: int) -> bool:
+        if n <=0:
+            return False
 
-b = a //50
-c = a % 50 // 10
-d = a % 10 // 5
-e = a % 5 // 1
+        while n>1:
+            if n % 2 !=0:
+                return False
+            
+            n = n // 2
 
-print(f'{a}=50*{b}+10*{c}+5*{d}+1*{e}' , end='')
+        return True
+        
