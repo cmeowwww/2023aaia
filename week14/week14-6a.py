@@ -1,0 +1,20 @@
+#瘋狂程設 　|　SOIT106_ADVANCE_011 進階題：2進位轉10進位
+
+a=int(input())
+
+if a==0:print(0)
+if a==1:print(1)
+if a==10:print(2)
+if a==11:print(3)
+if a==100:print(4)
+if a==101:print(5)
+if a==110:print(6)
+if a==111:print(7)
+if a==1000:print(8)
+if a==1001:print(9)
+if a==1010:print(10)
+if a==1011:print(11)
+if a==1100:print(12)
+if a==1101:print(13)
+if a==1110:print(14)
+if a==1111:print(15)
